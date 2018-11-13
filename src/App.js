@@ -4,7 +4,6 @@ import { getData } from './binance';
 import { getParams } from './utils';
 
 import { TypeChooser } from "react-stockcharts/lib/helper";
-import domtoimage from 'dom-to-image';
 
 class App extends Component {
   componentDidMount() {
@@ -15,19 +14,8 @@ class App extends Component {
       [symbol, interval, limit] = getParams(window.location.search)
     }
 		getData(symbol, interval, limit).then(data => {
-      this.setState({ data })
-		}).then(() => {
-      var node = document.getElementById('root');
-      domtoimage.toPng(node)
-          .then(function (dataUrl) {
-              var img = new Image();
-              img.src = dataUrl;
-              document.body.innerHTML = `<img src="${dataUrl}">`;
-          })
-          .catch(function (error) {
-              console.error('oops, something went wrong!', error);
-          });
-    })
+            this.setState({ data })
+		})
 	}
 	render() {
 		if (this.state == null) {
