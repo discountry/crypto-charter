@@ -6,7 +6,7 @@ Pass params via URL:
 
 **symbol**
 
-All Trading pair on [Binance](https://www.binance.com/?ref=20768006)
+All Trading pairs on [Binance](https://www.binance.com/?ref=20768006)
 
 **interval**
 
