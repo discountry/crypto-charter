@@ -34,7 +34,7 @@ Default 500; max 1000.
 
 * [https://charter.agg.one/?symbol=EOSBTC&interval=1h&limit=100](https://charter.agg.one/?symbol=EOSBTC&interval=1h&limit=100)
 
-* [https://charter.agg.one/?symbol=EOSBTC&interval=1h&limit=100](https://charter.agg.one/?symbol=ADAUSDT&interval=15m&limit=200)
+* [https://charter.agg.one/?symbol=ADAUSDT&interval=15m&limit=200](https://charter.agg.one/?symbol=ADAUSDT&interval=15m&limit=200)
 
 ## Dependencies
 
